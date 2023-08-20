@@ -13,7 +13,8 @@ RUN npm install mongodb
 COPY . .
 
 # Set environment variables for the MongoDB connection
-ENV MONGO_URI mongodb+srv://hmissi22:Ah@123456789@cluster0.sdqzl5l.mongodb.net/Projet_fin?retryWrites=true&w=majority
+#ENV MONGO_URI mongodb+srv://harbaouimohamed5:godzella07@cluster0.sdqzl5l.mongodb.net/devhack?retryWrites=true&w=majority
+#mongodb+srv://harbaouimohamed5:godzella07@cluster0.cspotlg.mongodb.net/
 
 # Expose the port that the server will listen on
 EXPOSE 5000
